@@ -12,15 +12,15 @@ header {
 
 header > h1 {
     font-size: 3rem;
-    font-weight:600;
+    font-weight:500;
     text-transform: uppercase;
     height: 30%;
+    padding-top: 2px;
     background-color: #ffb703;
-    color: aliceblue;
+    border: 4px solid black;
 }
 
 h1 > span {
-    font-size: 4rem;
     font-weight: 700;
     color: #9d0208;
 }
@@ -59,6 +59,21 @@ main {
     background-position: center;
 }
 
+.main-about {
+    height: 70vh;
+    background-image: url(/assets/images/hockey_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-contact {
+    height: 70vh;
+    background-image: url(/assets/images/hockey_3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
 .information {
     margin: auto;
     height: 100%;
@@ -84,13 +99,12 @@ main {
     margin: 5rem 2rem;
 }
 
-.card-img > img{
-    width: 350px;
+.card-information > .article-about {
+    margin: 0.8rem 2rem;
 }
 
-footer {
-    background-color: black;
-    height: 5vh;
+.card-img > img{
+    width: 250px;
 }
 
 h2 {
@@ -103,9 +117,18 @@ h2 {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
+footer {
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    height: 5vh;
+    color: aliceblue;
+}
+
+

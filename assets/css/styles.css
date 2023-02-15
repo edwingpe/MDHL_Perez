@@ -44,6 +44,11 @@ header {
     text-decoration: none;
 }
 
+.navbar > a:hover {
+    background-color: #E9C46A;
+    color: #15616D;
+}
+
 main {
     height: 85vh;
     background-size: cover;
@@ -51,18 +56,6 @@ main {
 
 #main-index{
     background-image: url(/assets/images/hockey_1.jpg); 
-}
-
-#main-contact{
-    background-image: url(/assets/images/design2_image1.jpg);
-}
-
-#main-game{
-    background-image: url(/assets/images/hockey_3.jpg);
-}
-
-#main-rules{
-    background-image: url(/assets/images/design1_image1.jpg);
 }
 
 main .box,
@@ -160,12 +153,17 @@ main .box,
 
 .about-info p:hover{
     background-color: #15616D;
+    cursor: pointer;
 }
 
 
 /* ////////////////////////////////////////////////////// 
             CONTACT CSS
 ////////////////////////////////////////////////////////*/
+
+#main-contact{
+    background-image: url(/assets/images/design2_image1.jpg);
+}
 
 .contact-info{
     border-bottom: 3px solid #E9C46A;
@@ -183,6 +181,10 @@ main .box,
 /* ////////////////////////////////////////////////////// 
             GAME INFO CSS
 ////////////////////////////////////////////////////////*/
+
+#main-game{
+    background-image: url(/assets/images/hockey_3.jpg);
+}
 
 .table-head h1{
     font-size: 3rem;
@@ -219,6 +221,27 @@ tr {
 
 p > span {
     font-weight: 700;
+}
+
+/* ////////////////////////////////////////////////////// 
+            RULES CSS
+////////////////////////////////////////////////////////*/
+
+#main-rules{
+    background-image: url(/assets/images/design1_image1.jpg);
+}
+
+.rules-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.rules-info-head > h1,
+.rules-info-head > h2,
+.rules-info-head > p{
+    text-align: center;
 }
 
 

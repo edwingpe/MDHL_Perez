@@ -53,10 +53,6 @@ main {
     background-image: url(/assets/images/hockey_1.jpg); 
 }
 
-#main-about{
-    background-image: url(/assets/images/hockey_2.jpg);
-}
-
 #main-contact{
     background-image: url(/assets/images/design2_image1.jpg);
 }
@@ -68,9 +64,6 @@ main {
 #main-rules{
     background-image: url(/assets/images/design1_image1.jpg);
 }
-
-
-
 
 main .box,
 .box-about,
@@ -129,71 +122,105 @@ main .box,
     font-size: 1.2rem;
     font-weight: 400;
 }
-/* 
-.main-about {
-    height: 90vh;
+
+
+/* ////////////////////////////////////////////////////// 
+            ABOUT CSS
+////////////////////////////////////////////////////////*/
+
+#main-about{
     background-image: url(/assets/images/hockey_2.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
-.main-contact {
-    height: 70vh;
-    background-image: url(/assets/images/hockey_3.jpg);
-    background-size: cover;
-    background-position: center;
-
+.about-info{
+    display: flex;
+    gap: 6rem;
 }
 
-.information {
-    margin: auto;
-    height: 100%;
-    width: 100%;
+.about-info > article {
+    display: flex;
+    flex-direction: column;
 }
 
-.card {
+.about-info h3 {
     text-align: center;
-    background-color: rgb(255,255,255,0.7);
-    height: 100%;
-    
-}
-
-.card-img,
-.card-information{
-    display: inline-block;
-    vertical-align: middle;
-    text-align: start;
-    margin: 0 3rem;
-}
-
-.card-information > article {
-    margin: 5rem 2rem;
-}
-
-.card-information > .article-about {
-    margin: 0.8rem 2rem;
-}
-
-.card-img > img{
-    width: 250px;
-} */
-
-/* h2 {
-    background-color: black;
-    color:white;
-    padding: 0.5rem;
-    text-align: center;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-} */
-
-/* h3 {
     font-size: 2rem;
+    text-transform: uppercase;
+    color: #15616D;
+} 
+
+.about-info  p {
+    text-align: justify;
+    border: 3px solid #15616D;
+    font-size: 1.2rem;
+    padding: 2rem;
+    width: 400px;
+    height:400px;
 }
 
-p {
-    font-size: 1.5rem;
-} */
+.about-info p:hover{
+    background-color: #15616D;
+}
+
+
+/* ////////////////////////////////////////////////////// 
+            CONTACT CSS
+////////////////////////////////////////////////////////*/
+
+.contact-info{
+    border-bottom: 3px solid #E9C46A;
+    padding: 0 6rem;
+}
+
+.contact-info p {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #001524;
+    text-shadow: 2px 2px 1px#E9C46A;
+}
+
+
+/* ////////////////////////////////////////////////////// 
+            GAME INFO CSS
+////////////////////////////////////////////////////////*/
+
+.table-head h1{
+    font-size: 3rem;
+    color: #001524;
+    text-shadow: 2px 2px 1px#E9C46A;
+}
+
+.table-head p,
+.table-footer p{
+    font-size: 1.2rem;
+}
+
+.game-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+table {
+    border: 1px solid black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    border-collapse: collapse;
+}
+table th {
+    background-color: #15616D;
+    color: #E9C46A;
+}
+
+tr {
+    border: 1px solid #001524;
+}
+
+p > span {
+    font-weight: 700;
+}
+
 
 footer {
     display: flex;

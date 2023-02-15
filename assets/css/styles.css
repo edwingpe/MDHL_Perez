@@ -1,66 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: 'Heebo', sans-serif;
 }
 
 header {
-    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    border-bottom: 2px solid #15616D;
 }
 
-header > h1 {
-    font-size: 3rem;
-    font-weight:500;
-    text-transform: uppercase;
-    height: 30%;
-    padding-top: 2px;
-    background-color: #ffb703;
-    border: 4px solid black;
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
-h1 > span {
-    font-weight: 700;
-    color: #9d0208;
+.nav-logo img {
+    width: 80px;
+    height: 75px;
+    border-radius: 100%;
+    border: 5px solid #E9C46A;
 }
 
-.banner{
-    position: relative;
-    background-image: url(/assets/images/design2_image1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    height: 70%;
+.nav-logo span {
+    color: #001524;
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-shadow: 2px 2px 1px #E9C46A;
 }
-nav{
-    display: inline-block;
-    position: absolute;
-    top: -20px;
-    right: 30px;
-}
-nav a {
-    display: inline-block;
-    width: 8rem;
-    padding: 0.5rem;
-    background-color: #ffb703;
-    border: 3px solid black;
-    text-align: center;
+
+.navbar > a {
+    border: 2px solid #ffff;
+    border-radius: 25px;
+    background-color: #15616D;
+    color: #fff;
+    padding: 0.5rem 2rem;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-weight: 700;  
 }
 
 main {
-    height: 70vh;
+    height: 85vh;
     background-image: url(/assets/images/hockey_1.jpg);
     background-size: cover;
     background-position: center;
 }
 
+main .box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 100%;
+    background-color: rgb(255,255,255,0.8);
+
+}
+
+.main-title > h1{
+    font-size: 6rem;
+    font-weight: 400;
+    line-height: 6rem;
+    color: #E9C46A;
+    text-shadow: 5px 5px 1px #001524;
+}
+
+.main-title > p {
+    font-size: 3rem;
+}
+
+.main-title > h1 > span {
+    font-size: 9rem;
+    font-weight: 700;
+    color: #001524;
+    text-shadow: 6px 6px 1px #E9C46A;
+
+}
+
+.events-info{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #15616D;
+    height: 20rem;
+
+}
+
+.events-info > h2 {
+    background-color: #15616D;
+    text-align: center;
+    color: #E9C46A;
+}
+
+.events-info > article {
+    margin: 0.8rem 2rem;
+}
+
+.events-info h3 {
+    font-size: 1.4rem;
+    color: #15616D;
+}
+
+.events-info p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* 
 .main-about {
-    height: 70vh;
+    height: 90vh;
     background-image: url(/assets/images/hockey_2.jpg);
     background-size: cover;
     background-position: center;
@@ -105,30 +154,32 @@ main {
 
 .card-img > img{
     width: 250px;
-}
+} */
 
-h2 {
+/* h2 {
     background-color: black;
     color:white;
     padding: 0.5rem;
     text-align: center;
     font-size: 1.5rem;
     text-transform: uppercase;
-}
+} */
 
-h3 {
+/* h3 {
     font-size: 2rem;
 }
 
 p {
     font-size: 1.5rem;
-}
+} */
+
 footer {
-    margin: 0 auto;
-    text-align: center;
-    background-color: black;
+    display: flex;
+    background-color: #15616D;
     height: 5vh;
-    color: aliceblue;
+    color: #fff;
+    align-items: center;
+    justify-content: center;  
 }
 
 

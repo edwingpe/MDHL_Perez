@@ -244,6 +244,18 @@ p > span {
     text-align: center;
 }
 
+/* ////////////////////////////////////////////////////// 
+            REGISTRATION CSS
+////////////////////////////////////////////////////////*/
+
+#main-registration {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    margin: 0 5rem;
+    padding: 5rem;
+    background-color: #15616D;
+}
 
 footer {
     display: flex;

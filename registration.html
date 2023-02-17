@@ -24,41 +24,41 @@
         </nav>
     </header>
     <main id="main-registration">
-        <form id="registration-form" action="show_data.html" method="get" target="_self">
+        <form id="registration-form" action="show_data.html" method="get" target="_blank">
             <fieldset>
                 <legend>Personal Data</legend>
                 <label for="firstname">First Name
-                    <input required type="text" name="firstname" id="" autocomplete="off">
+                    <input required type="text" id="firstname" name="Firstname" autocomplete="off">
                 </label>
                 <label for="lastname">Last Name
-                    <input required type="text" name="lastname" id="" autocomplete="off">
+                    <input required type="text" id="lastname" name="Lastname" autocomplete="off">
                 </label>
                 <label for="address">Street Address
-                    <input type="text" name="address" id="" autocomplete="off">
+                    <input type="text" id="address" name="Address" autocomplete="off">
                 </label>
                 <label for="city">City
-                    <input type="text" name="city" id="">
+                    <input type="text" name="City" id="city">
                 </label>
                 <label for="zip">Zip Code
-                    <input type="text" name="zip">
+                    <input type="text" id="zip" name="ZipCode">
                 </label>
-                <label for="birthdate">Bith Date
-                    <input type="date" name="bithdate">
+                <label for="birthdate">Birth Date
+                    <input type="date" id="birthdate" name="BirthDate">
                 </label>
                 <fieldset>
                     <p>Gender:</p> 
-                    <label for="gender">Female
-                        <input type="radio" name="gender" value="Female">
+                    <label for="female">Female
+                        <input type="radio" name="Gender" value="Female" id="female">
                     </label>
                     <label for="male">Male 
-                        <input type="radio" name="gender" value="Male">
+                        <input type="radio" name="Gender" value="Male" id="male">
                     </label>
                 </fieldset>
                 <label for="parent">Parent/Guardian
-                    <input required type="text" name="parent" id="">
+                    <input required type="text" name="Parent" id="parent">
                 </label>
                 <label for="grade">Grade
-                    <select name="grade" id="">
+                    <select name="Grade" id="grade">
                         <option value="Pre-school">Pre-School</option>
                         <option value="1st">1st</option>
                         <option value="2nd">2nd</option>
@@ -71,39 +71,39 @@
             <p>Which elementary school do you live near?</p>
             <fieldset>
                 <legend>Closest School</legend>
-                <label for="">AJ Katzenmaier
-                    <input type="radio" name="school" value="AJ Katzenmaier" id="">
+                <label for="katzenmaier">AJ Katzenmaier
+                    <input type="radio" name="School" value="AJ Katzenmaier" id="katzenmaier">
                 </label>
-                <label for="">Greenbay
-                    <input type="radio" name="school" value="Greenbay" id="">
+                <label for="greenbay">Greenbay
+                    <input type="radio" name="School" value="Greenbay" id="greenbay">
                 </label>
-                <label for="">Howard A Yeager
-                    <input type="radio" name="school" value="Howard A Yeager" id="">
+                <label for="howard">Howard A Yeager
+                    <input type="radio" name="School" value="Howard A Yeager" id="howard">
                 </label>
-                <label for="">Marjorie P Hart
-                    <input type="radio" name="school" value="Marjorie P Hart" id="">
+                <label for="marjorie">Marjorie P Hart
+                    <input type="radio" name="School" value="Marjorie P Hart" id="marjorie">
                 </label>
-                <label for="">North Elementary
-                    <input type="radio" name="school" value="North Elementary" id="">
+                <label for="north">North Elementary
+                    <input type="radio" name="School" value="North Elementary" id="north">
                 </label>
-                <label for="">South Elementary
-                    <input type="radio" name="school" value="South Elementary" id="">
+                <label for="south">South Elementary
+                    <input type="radio" name="School" value="South Elementary" id="south">
                 </label>
             </fieldset>
             <p>What position(s) do you normally play? (Check all that apply)</p>
             <fieldset>
                 <legend>Position(s)</legend>
                 <label for="forward">Forward
-                    <input type="checkbox" name="position" value="forward" id="forward">
+                    <input type="checkbox" name="Position" value="forward" id="forward">
                 </label>
                 <label for="defense">Defense
-                    <input type="checkbox" name="position" value="defense" id="defense">
+                    <input type="checkbox" name="Position" value="defense" id="defense">
                 </label>
                 <label for="midfield">Midfield
-                    <input type="checkbox" name="position" value="midfield" id="midfield">
+                    <input type="checkbox" name="Position" value="midfield" id="midfield">
                 </label>
                 <label for="goalkeeper">Goalkeeper
-                    <input type="checkbox" name="position" value="goalkeeper" id="goalkeeper">
+                    <input type="checkbox" name="Position" value="goalkeeper" id="goalkeeper">
                 </label>
             </fieldset>
             <p>Uniform</p>
@@ -135,14 +135,13 @@
             <fieldset>
                 <p>
                     I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.
-
                     By signing below, I here by agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
                 </p>
                 <label for="signature">Parent/Guardian Signature
-                    <input required type="text" name="signature" autocomplete="off">
+                    <input required type="text" name="Signature" autocomplete="off" id="signature">
                 </label>
                 <label for="date">
-                    <input type="date" name="date">
+                    <input type="date" name="Date" id="date">
                 </label>
             </fieldset>
             <button type="submit">¡Join Us!</button>

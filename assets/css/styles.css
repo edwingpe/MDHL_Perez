@@ -184,6 +184,7 @@ main .box,
 
 #main-game{
     background-image: url(/assets/images/hockey_3.jpg);
+    height: auto;
 }
 
 .table-head h1{
@@ -215,7 +216,7 @@ table th {
     color: #E9C46A;
 }
 
-tr {
+tr,td {
     border: 1px solid #001524;
 }
 
@@ -255,6 +256,22 @@ p > span {
     margin: 0 5rem;
     padding: 5rem;
     background-color: #15616D;
+}
+
+/* ////////////////////////////////////////////////////// 
+            FEEDBACK CSS
+////////////////////////////////////////////////////////*/
+
+#main-feedback {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+#main-feedback > div {
+    padding: 2rem;
 }
 
 footer {

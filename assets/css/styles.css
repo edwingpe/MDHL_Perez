@@ -122,7 +122,7 @@ main .box,
 ////////////////////////////////////////////////////////*/
 
 #main-about{
-    background-image: url(/assets/images/hockey_2.jpg);
+    background-image: url(./assets/images/hockey_2.jpg);
 }
 
 .about-info{
@@ -162,7 +162,7 @@ main .box,
 ////////////////////////////////////////////////////////*/
 
 #main-contact{
-    background-image: url(/assets/images/design2_image1.jpg);
+    background-image: url(./assets/images/design2_image1.jpg);
 }
 
 .contact-info{
@@ -183,7 +183,7 @@ main .box,
 ////////////////////////////////////////////////////////*/
 
 #main-game{
-    background-image: url(/assets/images/hockey_3.jpg);
+    background-image: url(./assets/images/hockey_3.jpg);
     height: auto;
 }
 
@@ -234,7 +234,7 @@ iframe {
 ////////////////////////////////////////////////////////*/
 
 #main-rules{
-    background-image: url(/assets/images/design1_image1.jpg);
+    background-image: url(./assets/images/design1_image1.jpg);
 }
 
 .rules-info {

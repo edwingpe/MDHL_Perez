@@ -55,7 +55,7 @@ main {
 }
 
 #main-index{
-    background-image: url(/assets/images/hockey_1.jpg); 
+    background-image: url(../images/hockey_1.jpg); 
 }
 
 main .box,
